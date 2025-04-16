@@ -16,7 +16,7 @@ public class SurveyController {
 
     @GetMapping
     public List<Survey> getAllSurveys() {
-        return surveyService.getAllSurveys();
+        return surveyService.getAllSurveys(); // Test Comment
     }
 
     @PostMapping("/create")
