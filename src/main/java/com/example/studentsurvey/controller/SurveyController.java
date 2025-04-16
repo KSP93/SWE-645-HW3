@@ -37,7 +37,7 @@ public class SurveyController {
     @PostMapping("/delete")
     public void deleteSurvey(@RequestBody int id) {
     surveyService.deleteSurveyById((long) id);
-}
-
     }
+
+    
 }
